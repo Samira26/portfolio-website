@@ -1,0 +1,41 @@
+:root {
+  --main-background-color--: #d8cfaf;
+  --secondary-background-color--: #e6b89c;
+  --highlight-color: #ed9390;
+  --heading-color--: #32533d;
+  --accent-color--: #f374ae;
+}
+
+body {
+  padding-top: 70px;
+  background-color: var(--main-background-color--);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color--);
+}
+
+.hero {
+  padding: 100px 20px 150px 50px;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+.hero h2 {
+  color: var(--accent-color--);
+}
+
+.scroll-down {
+  text-decoration: none;
+  color: #32533d;
+  font-size: 40px;
+}
