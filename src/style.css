@@ -2,7 +2,7 @@
   --heading-font-family: "Playfair Display", sans-serif;
   --main-background-color--: #d8cfaf;
   --secondary-background-color--: #e6b89c;
-  --highlight-color: #ed9390;
+  --highlight-color--: #ed9390;
   --heading-color--: #32533d;
   --accent-color--: #f374ae;
 }
@@ -33,7 +33,7 @@ h6 {
 
 .hero h2 {
   color: var(--accent-color--);
-  font-size: 48px;
+  font-family: "Poppins", sans-serif;
 }
 
 .scroll-down {
@@ -42,6 +42,42 @@ h6 {
   font-size: 40px;
 }
 
-.coding-icons {
-  font-size: 24px;
+.intro-section {
+  background-color: var(--secondary-background-color--);
+  padding: 60px;
+}
+
+.intro-section h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-intro {
+  padding: 40px;
+}
+
+p {
+  font-size: 28px;
+  line-height: 1.5;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.icons {
+  font-size: 48px;
+}
+
+.html-icon {
+  color: var(--highlight-color--);
+}
+
+.css-icon {
+  color: var(--accent-color--);
+}
+
+.js-icon {
+  color: var(--heading-color--);
+}
+
+.bootstrap-icon {
+  color: var(--main-background-color--);
 }
