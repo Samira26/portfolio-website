@@ -23,7 +23,7 @@ h6 {
 }
 
 .hero {
-  padding: 100px 20px 150px 50px;
+  padding: 100px 20px 80px 50px;
 }
 
 .hero h1 {
@@ -39,12 +39,12 @@ h6 {
 .scroll-down {
   text-decoration: none;
   color: #32533d;
-  font-size: 40px;
+  font-size: 80px;
 }
 
 .intro-section {
   background-color: var(--secondary-background-color--);
-  padding: 60px;
+  padding: 30px;
 }
 
 .intro-section h2 {
@@ -52,14 +52,20 @@ h6 {
   font-weight: 700;
 }
 
-.about-intro {
-  padding: 40px;
-}
-
 p {
   font-size: 28px;
   line-height: 1.5;
   font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.intro-section-right {
+  text-align: right;
+}
+.intro-image {
+  border: 1px solid var(--heading-color--);
+  box-shadow: 10px 10px 22px -6px rgba(50, 83, 61, 0.7);
+  border-radius: 50%;
+  width: 60%;
 }
 
 .icons {
