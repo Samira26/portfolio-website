@@ -22,7 +22,12 @@
     <nav class="navbar navbar-expand-lg navigation-bar">
       <div class="container">
         <a class="navbar-brand navigation-links" href="/" title="Homepage">
-          Samira Mohamed
+          <img
+            src="/images/navbar-logo.png"
+            alt="navbar-logo"
+            width="80"
+            class=""
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -38,13 +43,21 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link navigation-links" href="#" title="About me"
-                >About</a
+              <a class="nav-link navigation-links" href="/" title="Homepage"
+                >Home</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link navigation-links"
+                href="/about.html"
+                title="About me"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active navigation-links"
                 href="/work.html"
                 title="My work"
                 >Work</a
@@ -74,10 +87,22 @@
       <div class="row">
         <div class="col-6">
           <h2 class="my-5">Weather App</h2>
-          <p class="mb-5">
-            To create the weather app i used HTML, CSS, Javascript and an API
+          <p class="mb-3">
+            A responsive weather app using API. It displays live temperature,
+            weather conditions and location based forecasts.
           </p>
-          <a href="" class="btn btn-branding-outline">Learn More</a>
+          <div class="icons my-3">
+            <i class="fa-brands fa-html5 pe-3 html-icon"></i>
+            <i class="fa-brands fa-css p-3 css-icon"></i>
+            <i class="fa-brands fa-js p-3 js-icon"></i>
+          </div>
+          <a
+            href="https://weerbericht-app.netlify.app/"
+            target="_blank"
+            class="btn btn-branding-outline mb-3"
+            title="project weather app"
+            >View Project</a
+          >
         </div>
         <div class="col-6">
           <img
@@ -91,38 +116,88 @@
         <div class="col-6">
           <img
             src="/images/world-clock.png"
-            alt="weather app"
+            alt="world clock app"
             class="img-fluid rounded my-5"
           />
         </div>
         <div class="col-6 ps-4">
           <h2 class="my-5">World Clock</h2>
-          <p class="mb-5">
-            To create the weather app i used HTML, CSS, Javascript and an API
+          <p class="mb-3">
+            A multi-city clock app that displays current times across different
+            time zones. Built with JavaScript and Moments.js and dynamically
+            updates every second.
           </p>
-          <a href="" class="btn btn-branding-outline">Learn More</a>
+          <div class="icons my-3">
+            <i class="fa-brands fa-html5 pe-3 html-icon"></i>
+            <i class="fa-brands fa-css p-3 css-icon"></i>
+            <i class="fa-brands fa-js p-3 js-icon"></i>
+          </div>
+          <a
+            href="https://world-clock-moments.netlify.app/"
+            target="_blank"
+            class="btn btn-branding-outline mb-3"
+            title="project world clock app"
+            >View Project</a
+          >
         </div>
       </div>
       <div class="row">
         <div class="col-6">
           <h2 class="my-5">Script Generator</h2>
-          <p class="mb-5">
-            To create the weather app i used HTML, CSS, Javascript and an API
+          <p class="mb-3">
+            A fun AI-powered tool that creates random short film scripts. It
+            uses prompt engineering to produces creative scripts.
           </p>
-          <a href="" class="btn btn-branding-outline">Learn More</a>
+          <div class="icons my-3">
+            <i class="fa-brands fa-html5 pe-3 html-icon"></i>
+            <i class="fa-brands fa-css p-3 css-icon"></i>
+            <i class="fa-brands fa-js p-3 js-icon"></i>
+          </div>
+          <a
+            href="https://short-film-script-generator.netlify.app/"
+            target="_blank"
+            class="btn btn-branding-outline mb-5"
+            title="short film script generator"
+            >View Project</a
+          >
         </div>
         <div class="col-6">
           <img
             src="/images/short-film-script-generator.png"
-            alt="weather app"
+            alt="film scrip generator"
             class="img-fluid rounded my-5"
           />
         </div>
       </div>
     </div>
+    <footer class="p-4">
+      <div class="d-flex justify-content-center">
+        <div class="align-self-center contact-icons">
+          <a
+            href="https://github.com/Samira26"
+            target="_blank"
+            title="Github profile"
+            ><i class="fa-brands fa-github p-3"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/samiramohamed/"
+            target="_blank"
+            title="LinkedIn profile"
+            ><i class="fa-brands fa-linkedin p-3"></i
+          ></a>
+          <a href="mailto:samira_mohamed1@outlook.com" title="Email"
+            ><i class="fa-solid fa-envelope p-3"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/354a9897bf.js"
       crossorigin="anonymous"
     ></script>
   </body>
