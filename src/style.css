@@ -148,6 +148,10 @@ h4 {
   border: none;
 }
 
+.project-view {
+  border-top: 1px solid rgba(237, 147, 144, 0.2);
+}
+
 .btn-branding-outline {
   border: 1px solid var(--highlight-color--);
   background-color: var(--highlight-color--);
@@ -163,10 +167,10 @@ h4 {
   border: 1px solid var(--highlight-color--);
 }
 
-.about-image {
+.about-image img {
   border: 4px solid var(--secondary-background-color--);
   border-radius: 50%;
-  width: 80%;
+  width: 70%;
 }
 
 .about-content {
@@ -175,6 +179,28 @@ h4 {
 
 .about-content p {
   font-size: 20px;
+}
+
+.about-icon img {
+  border: 4px solid var(--highlight-color--);
+  border-radius: 50%;
+  width: 30%;
+}
+
+#contact-form input,
+#contact-form textarea {
+  border: 1px solid var(--secondary-background-color--);
+  box-shadow: 0 0 8px rgba(237, 147, 144, 0.2);
+}
+
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Pro Vietnam Be", sans-serif;
+  color: #32533d;
+}
+.form-control {
+  background-color: var(--main-background-color--) !important;
 }
 
 footer {
@@ -190,6 +216,11 @@ footer {
 }
 
 .contact-icons a:hover {
+  color: var(--accent-color--);
+}
+
+footer p {
+  font-size: 18px;
   color: var(--accent-color--);
 }
 
@@ -237,5 +268,30 @@ footer {
   .icons {
     font-size: 24px;
     text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .about-content p {
+    font-size: 18px;
+  }
+  .about-image {
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+  }
+
+  .btn-branding-outline {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
+
+  footer p {
+    font-size: 14px;
   }
 }
