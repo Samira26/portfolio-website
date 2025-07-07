@@ -80,7 +80,7 @@
           Have a question or want to work together? Drop me a message 🤍✨
         </h2>
         <div class="mt-5 text-center">
-          <a href="/contact.html#contact-form" class="scroll-down">&#8595;</a>
+          <a href="/contact/#contact-form" class="scroll-down">&#8595;</a>
         </div>
       </div>
     </header>
@@ -93,6 +93,7 @@
               method="POST"
               data-netlify="true"
               id="contact-form"
+              action="/contact/"
             >
               <div class="mb-3">
                 <input type="hidden" name="form-name" value="contact" />
@@ -115,6 +116,7 @@
                 <textarea
                   class="form-control"
                   id="message"
+                  name="message"
                   rows="5"
                   required
                 ></textarea>
