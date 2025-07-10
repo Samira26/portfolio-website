@@ -88,8 +88,18 @@
       <div class="container my-5">
         <div class="row">
           <div class="col-12">
-            <form name="contact" id="contact-form">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              name="contact"
+              id="contact-form"
+            >
               <div class="mb-3">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="14f56ac4-e128-45ab-b6c6-e87946ec34c7"
+                />
                 <label for="name" class="form-label"> Your name:</label>
                 <input type="text" class="form-control" name="name" required />
               </div>
@@ -100,6 +110,12 @@
                   class="form-control"
                   name="email"
                   required
+                />
+                <input
+                  type="checkbox"
+                  name="botcheck"
+                  class="hidden"
+                  style="display: none"
                 />
               </div>
               <div class="mb-3">
@@ -113,19 +129,17 @@
                   rows="5"
                   required
                 ></textarea>
+                <input
+                  type="hidden"
+                  name="redirect"
+                  value="https://msamira.com/contact/thanks.html"
+                />
               </div>
               <div>
                 <button type="submit" class="btn btn-card-outline mt-2">
                   Send Message
                 </button>
               </div>
-              <p
-                id="thank-you"
-                class="mt-4 fw-semibold text-center"
-                style="display: none"
-              >
-                Thank you! I'll get back to you soon.
-              </p>
             </form>
           </div>
         </div>
