@@ -291,6 +291,10 @@ footer p {
     padding: 15px 20px;
   }
 
+  .project-card:hover .project-image {
+    transform: none;
+  }
+
   footer p {
     font-size: 14px;
   }
